@@ -3,3 +3,5 @@ What happens when you initialize a repository? Why do you need to do it?
 - To get git setup and ready track version changes.
 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- Instead of committing everything in the working directory, the staging area allows you the choice of what you really want to keep track of so you can use/keep other files in the same location as scratch.
