@@ -3,4 +3,14 @@ When would you want to create a remote repository rather than keeping all your w
 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-- So 
+- So that it doesn’t overwrite what you’ve done without your knowledge.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+- Branches let you quickly try out something you may or may not eventually let die on the vine without the fear of corrupting a working version. Branches are within your own repository and can be merged with other branches without permission. 
+- Cloning duplicates a repository (you may not have permission to change) to another location and the clone has a reference to the location of the original.
+- Forks are used on GitHub to duplicate a repository (you may not have permission to change) to your own GitHub account so that it’s under your control.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- So you can compare the remote’s history of changes (the commits) offline. But is there a command to compare the difference between what’s been committed in a regular local repo to the local fetched remote repo??
