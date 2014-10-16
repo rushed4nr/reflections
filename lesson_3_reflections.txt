@@ -14,3 +14,8 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 - So you can compare the remote’s history of changes (the commits) offline. But is there a command to compare the difference between what’s been committed in a regular local repo to the local fetched remote repo??
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- Email chains, shared folders, Google Docs or Acrobat collaboration service.
+- Git seems great for text based file formats, but seems inadequate for proprietary/binary ones. 
